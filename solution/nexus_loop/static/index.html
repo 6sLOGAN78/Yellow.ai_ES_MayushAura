@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nexus Loop</title>
+  <meta name="description" content="Operator console: findings, evidence and approvals from loop-report.json.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='none' stroke='%232457C5' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M15.5 7A6.5 6.5 0 1 0 16.5 10'/%3E%3Cpath d='M16.5 3.5V7H13'/%3E%3Ccircle cx='10' cy='10' r='1.6' fill='%232457C5' stroke='none'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/static/app.css">
+  <script src="/static/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#view">Skip to content</a>
+  <header class="topbar">
+    <div class="wordmark"><svg class="logo" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M15.5 7A6.5 6.5 0 1 0 16.5 10"/><path d="M16.5 3.5V7H13"/><circle cx="10" cy="10" r="1.6" fill="currentColor" stroke="none"/></svg>Nexus Loop</div>
+    <nav class="tabs" role="tablist" aria-label="Sections">
+      <button class="tab" id="tab-findings" role="tab" data-tab="findings" aria-selected="true" aria-controls="view">Findings <span class="count"></span></button>
+      <button class="tab" id="tab-refusals" role="tab" data-tab="refusals" aria-selected="false" aria-controls="view">Refusals <span class="count"></span></button>
+      <button class="tab" id="tab-metrics" role="tab" data-tab="metrics" aria-selected="false" aria-controls="view">Metrics <span class="count"></span></button>
+      <button class="tab" id="tab-decisions" role="tab" data-tab="decisions" aria-selected="false" aria-controls="view">Decisions <span class="count"></span></button>
+    </nav>
+    <div class="topmeta" id="topmeta"></div>
+  </header>
+  <div id="banner"></div>
+  <div id="shell" class="shell">
+    <nav class="rail" id="rail" aria-label="Findings and refusals"></nav>
+    <main id="view" role="tabpanel" tabindex="-1" aria-label="Section content"><div class="skeleton" aria-busy="true" aria-label="Loading report"><i class="s"></i><i class="h"></i><i class="b"></i></div></main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <noscript><p class="empty">This screen needs JavaScript to read loop-report.json.</p></noscript>
+</body>
+</html>

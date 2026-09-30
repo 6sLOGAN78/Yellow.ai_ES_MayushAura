@@ -1,0 +1,14 @@
+{
+  "_comment": "Copy to candidates.json and edit. Each entry is one solution under test. Substitutions: {kit} {team} {out} {outdir} {replay_url} {port}. workdir is the cwd the run/serve commands execute in (an absolute path is safest).",
+  "candidates": [
+    {
+      "name": "example-solution",
+      "workdir": ".",
+      "run": "python3 run.py --kit {kit} --team {team} --out {out} --replay-url {replay_url} --no-score",
+      "serve": "python3 -m nexus_loop.app --report {report} --port {port}",
+      "source_globs": ["nexus_loop/**/*.py", "run.py"],
+      "literal_allow_globs": ["nexus_loop/static/**", "**/test_*.py"],
+      "replay": true
+    }
+  ]
+}

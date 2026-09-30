@@ -1,0 +1,11 @@
+# Hyperframes Composition Brief: Nexus Loop
+
+Create a polished product-focused 1920×1080 film, approximately 24 seconds, with Kokoro af_heart narration. Output composition/ and brag.mp4 in this run directory. Follow brag-plan.md for product copy, sequence, and boundaries. Generated voice sets exact scene timings.
+
+Use source product UI from solution/nexus_loop/static and synthetic practice report from solution/out/loop-report.json. Capture the actual console, then use deliberate crops/animated replicas of its evidence and decision controls for video readability. Retain the product's light Inter/JetBrains Mono visual identity: #F6F7F9 canvas, #FFFFFF surfaces, #111827 text, #2457C5 blue, #15803D green, #B42318 red. Product problem: successful tool status can hide unresolved conversations. Product solution: trace logs→outcomes→configuration cause, dismiss lookalikes, propose bounded fixes, show replay and risk, record a human decision. Do not imply the planned advisor exists. Label simulated replay results and practice-corpus metrics.
+
+Opening: “Success ≠ resolved.” Closing: “Know what to change.” / “Keep the decision human.” Centerpiece must use real console material. Simulate a review interaction using an isolated report and fictional reviewer.
+
+Implement seek-safe HTML/GSAP using current Hyperframes domain skills, with a single registered paused timeline and local assets. Use controlled pans/reframes to focus the UI, clean overlapping transitions, 0.3–0.6s entrances, and adequate text holds. Avoid abstract filler and generic SaaS claims. The UI should dominate the frame in the middle scenes.
+
+Music: brag skill bundled vol-12, copied locally. Narration-first mix, voice on its own track, duck the bed and apply the standard voice carve. Restrained SFX only on a visible reveal and decision interaction. Preset cues are optional: 8.74, 17.47, 22.93 seconds; ignore if voice pacing/readability would suffer. Extract music bands with hyperframes-creative/scripts/extract-audio-data.py and modulate only an existing product-frame border/glow. Run Hyperframes check, inspect settled and transition frames, then deliver MP4, selected poster baked into frame 0, and share-copy.txt.
