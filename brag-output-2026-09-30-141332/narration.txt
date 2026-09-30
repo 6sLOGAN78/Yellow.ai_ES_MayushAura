@@ -1,5 +1,0 @@
-Your agent reports success. Your customer still leaves unresolved.
-Nexus Loop connects agent logs to outcomes and the change that broke them.
-It filters false alarms, recommends a bounded fix, and checks known-good conversations in replay.
-You review the evidence, then approve, reject, or defer.
-Nexus Loop. Know what to change. Keep the decision human.

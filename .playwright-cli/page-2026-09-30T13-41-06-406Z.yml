@@ -1,0 +1,9 @@
+- region "Consent Manager" [ref=e10]:
+  - generic [ref=e11]:
+    - text: This website uses cookies, pixel tags, and local storage for performance, personalization, and marketing purposes. We use our own cookies and some from third parties. Only essential cookies are turned on by default.
+    - link "Cookies settings" [ref=e12]:
+      - /url: /consent-preferences/
+  - generic [ref=e13]:
+    - button "Do not allow cookies" [ref=e14] [cursor=pointer]
+    - button "Allow all cookies" [ref=e15] [cursor=pointer]
+  - button "Dismiss" [ref=e17]
